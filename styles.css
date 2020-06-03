@@ -1,0 +1,55 @@
+body{
+    background-color: #708160; 
+    font-family: 'Baloo Chettan 2', cursive;  
+}
+
+.cont{
+    width: 800px;
+    margin: 10% auto;
+}
+.test{
+    /* background-color: red; */
+    transition: transform .2s;
+    overflow: hidden;
+
+}
+
+.test:hover{
+    transform: scale(1.1);
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.check:hover{
+    transform: scale(1.5);
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Bangers', cursive;
+    animation-fill-mode: backwards 2s;
+}
+
+
+/* @media only screen and (min-device-width: 480px){
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .cont{
+        margin-top: 20%;
+        width: 50%;
+    }
+    .test{
+        transition: none;
+    }
+} */
+
+
+

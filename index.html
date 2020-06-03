@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Bangers&family=Kaushan+Script&family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="cont">
+        <!-- <img class='goku' src='Goku.png' alt='gokuimg'/> -->
+        <!-- <img class='goku2' src='Goku.png' alt='gokuimg'/> -->
+        <div class='main-heading'>
+            <h1 class='text-center mt-5 mb-5'>TODO Fun Bucket List</h1>
+        </div>        
+        <div class='container form-group'>
+            <div class='input-group'>    
+                <input id='userInput' class='todo form-control mr-3' type='text' maxlength="50" name='input' placeholder='Enter what to do to start your to do life' onkeyup="inputCheck(event)" autocomplete="off">               
+                <button id='enter' class='btn btn-sm btn-dark' type='submit' name='submit' onclick='submitTodo()'>Submit</button>                
+            </div>    
+        </div>
+
+        <div id='todo-list' class="todo-list d-flex flex-column mb-3 mt-5">
+            <div id='todo-head1' class="p-2 bd-highlight text-center">
+                <h3>Todo to be done</h3>
+            </div>
+            <div class="todo-items p-2 bd-highlight text-center">Add things to do in your life to acknowledge your own achievements!!!</div>
+            <!-- <div class="p-2 bd-highlight border border-secondary"><input class='mr-2' type='checkbox'><label>Design front page for todo</label></div> -->
+            <!-- <div class="p-2 bd-highlight border border-secondary"><input class='mr-2' type='checkbox'>Add todo items to the list</div>
+            <div class="p-2 bd-highlight border border-secondary"><input class='mr-2' type='checkbox'>Do something important!!!!!</div> -->
+        </div>
+
+        <div id='todo-done' class="todo-items-done d-flex flex-column bd-highlight mt-5 ">
+            <div class="todo-head2 p-2 bd-highlight text-center">
+                <h3>Todo's done!!!!!!!!</h3>
+            </div>
+            <div class="p-2 bd-highlight  text-center">Some people just do something for nothing, but only some people acknowledge their something!!!</div>
+        </div>
+    </div>
+
+
+    <script src='script.js'></script>
+</body>
+</html>
