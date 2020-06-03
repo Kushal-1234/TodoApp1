@@ -4,8 +4,7 @@ body{
 }
 
 .cont{
-    width: 800px;
-    margin: 10% auto;
+    margin-top: 10%;
 }
 .test{
     /* background-color: red; */
